@@ -77,8 +77,6 @@ sex_income <- welfare %>%
 sex_income
 ggplot(data = sex_income, aes(x = sex, y = mean_income)) + geom_col()
 
-# 09-3. 나이와 월급의 관계
-# - "몇 살 때 월급을 가장 많이 받을까?"   pdf 17쪽
 
 
 
